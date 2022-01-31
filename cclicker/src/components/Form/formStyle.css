@@ -1,0 +1,98 @@
+.form {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: solid 1px #EC7979;
+    padding: 10px;
+  }
+  .form__wrapper {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .form__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    width: 45%;
+    min-width: 300px;
+  }
+  .form__item {
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 31px;
+  }
+  
+  .form__item:last-child {
+    margin-bottom: 0;
+  
+  }
+  
+  .form__label {
+    
+    font-size: 14px;
+    color: #BDBDBD;
+    cursor: pointer;
+  }
+  
+  .form__input {
+    outline: none;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 16px;
+    color: #EC7979;   
+  }
+  
+  
+  .form__message {
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .form__message-label{
+    font-size: 16px;
+    color: #BDBDBD;
+    cursor: pointer;
+  }
+  
+  .form__textarea {
+    outline: none;
+    height: 220px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    font-size: 14px;
+    color: #EC7979;
+    resize: none;
+  }
+  
+  .form__button {
+    display: block;
+    padding: 11px 32px;
+    background-color: #EC7979;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: auto;
+    transition: 0.3s;
+  }
+  .form__button:hover {
+    color: #EC7979;
+    background-color: rgb(250, 229, 229);
+    border-radius: 5px;
+  }
