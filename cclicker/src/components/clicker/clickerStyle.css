@@ -1,0 +1,41 @@
+.clicker-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .wrapper {
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+  }
+  .clicker-display {
+    border: solid 3px grey;
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: grey;
+    background-color: white;
+  }
+  .button-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-item {
+    width: 100px;
+    height: 100px;
+    color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+  }
+  .button-item:active {
+    border: solid 7px rgba(0, 0, 0, 0.2);
+  }
